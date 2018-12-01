@@ -1,0 +1,113 @@
+body {
+  background: url("images/background.jpg");
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.6;
+  font-family: 'Trebuchet MS'
+}
+
+.homeInfo h1 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 70pt;
+  font-weight: lighter;
+  margin: auto;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  opacity: 1;
+}
+.homeInfo h2 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25pt;
+  font-weight: lighter;
+  margin: auto;
+  text-align: center;
+  opacity: 1;
+}
+.homeInfo p {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-right: 30%;
+  margin-left: 30%;
+  text-align: center;
+  opacity: 1;
+}
+
+.menuBar{
+  text-align: right;
+}
+.menuBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.menuBar li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+.menuBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menuBar li a:hover:not(.active) {
+  background-color: #111;
+}
+.menuBar li:last-child {
+  border-right: none;
+}
+.menuBar .active {
+  background-color: #477BA9;
+}
+
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+
+}
+.socialMedia .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10%;
+}
+.socialMedia .fa:hover {
+  opacity: 0.7;
+}
+.socialMedia .fa-linkedin {
+  background: #007bb5;
+  color: white;
+  text-align: center;
+}
+.socialMedia .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.socialMedia .fa-instagram {
+  background: #c32aa3;
+  color: white;
+}
+
+.socialMedia .fa-github {
+  background: #211f1f;
+  color: white;
+}
+
+
+
+
+
+
